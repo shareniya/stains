@@ -1,0 +1,81 @@
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tablestyle {
+  text-align: center;
+}
+
+td:empty::before {
+  content: "(None)";
+}
+
+.closeform {
+  float: right;
+  margin-top: 8px;
+}
+
+/*
+    *  Position the #userdetailpop element in the top-right
+    *  of the .wrappertable element
+    */
+#userdetailpop {
+  margin-top: -2rem;
+  margin-right: 0rem;
+  position: absolute;
+  right: 0;
+}
+
+/* #carduser {
+  height: 80px;
+} */
+
+#namedisplay {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.newuser {
+  padding-bottom: 35px;
+}
+
+table th {
+  padding: 0 !important;
+}
+
+.table-header-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header-width {
+  min-width: 250px;
+}
+
+p #titledashboard{
+  vertical-align: middle;
+}
+
+#titledash {
+  display: inline;
+}
+
+#titleline {
+  font-size: 200%;
+  display: inline;   
+}
+
+#titlelink {
+  font-size: 110%;
+  display: inline;
+}

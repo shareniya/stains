@@ -1,0 +1,36 @@
+/* Control input box width */
+.form-control {
+  max-width: 250px;
+}
+/* Control employment type box width */
+.custom-select {
+  min-width: 200px;
+  max-width: 250px;
+}
+/* Control react-select dropdown list width */
+.basic-multi-select {
+  max-width: 250px;
+}
+
+/* .form-button {
+  float: right;
+} */
+
+.btn {
+  margin: 5px;
+}
+
+.form-group {
+  margin-left: 20px;
+}
+
+.form-group.form-inline.form-row{
+  font-size: 12px;
+}
+.form-button{
+  position: relative;
+    right:20px;
+    display: table-cell;
+    padding-top: 0;
+    padding-bottom: 0;
+}

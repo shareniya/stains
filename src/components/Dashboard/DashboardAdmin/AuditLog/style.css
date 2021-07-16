@@ -1,0 +1,32 @@
+.hiddenRow {
+	padding: 0 !important;
+  }
+  
+  .sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+  }
+  
+  .tablestyle{
+	text-align:center;
+  }
+  
+  td:empty::before {content: "(None)"}
+
+  .header-width {
+    min-width: 100px;
+  }
+
+  .header-width-id {
+    min-width: 50px;
+  }
+
+  #content {
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+    padding: 2rem;
+  }
+ 

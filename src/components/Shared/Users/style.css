@@ -1,0 +1,90 @@
+/* body{
+	padding-top:50px;
+	background-color:#34495e;
+} */
+
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.usercontent {
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.cardstyle {
+  max-width: 7rem;
+}
+
+.tablestyle {
+  text-align: center;
+}
+
+td:empty::before {
+  content: "(None)";
+}
+/* .centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+.closeform {
+  float: right;
+}
+
+.wrappertable {
+  position: relative;
+}
+/*
+  *  Position the #appdetailpop element in the top-right
+  *  of the .wrappertable element
+  */
+#appdetailpop {
+  margin-top: -2rem;
+  margin-right: 0rem;
+  position: absolute;
+  right: 0;
+}
+
+#content {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+#namedata {
+  max-width: 200px;
+}
+
+/* #name-header {
+  min-width: 200px;
+} */
+
+p #titledashboard{
+  vertical-align: middle;
+}
+
+#titledash {
+  display: inline;
+}
+#titleline {
+  font-size: 200%;
+  display: inline;   
+}
+
+#titlelink {
+  font-size: 110%;
+  display: inline;
+}

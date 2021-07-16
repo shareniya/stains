@@ -1,0 +1,22 @@
+.hiddenRow {
+	padding: 0 !important;
+  }
+  
+  .sticky {
+	position:-webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+  }
+  
+  .tablestyle{
+	text-align:center;
+  }
+  
+  td:empty::before {content: "(None)"}
+
+
+  th#header-width-loginhistory {
+    min-width: 50px;
+;
+  }

@@ -1,0 +1,22 @@
+#employmentpop {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  margin-top: -2rem;
+}
+
+.wrappertable {
+  position: relative;
+}
+
+
+#content {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+  padding: 2rem;
+}
+
+
+
+

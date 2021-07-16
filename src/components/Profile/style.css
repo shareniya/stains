@@ -1,0 +1,101 @@
+.profilecontent {
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.second-group,.first-group{
+  text-align: left;
+  
+  }
+@media (min-width: 768px){
+  .second-group {
+    position: relative;
+    right: -5px;
+    top: -120px;
+    display: table-cell;
+    text-align: right;
+    /* margin-right: 10px;
+    margin-left: 10px; */
+   font-size: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 5px 0 5px 0;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .first-group {
+    position: relative;
+    right: -60px;
+    top: -120px;
+    text-align: right;
+    font-size: 10px;
+    margin: 5px 5px 5px 5px;
+    /* margin-right: 10px;
+    margin-left: 100px; */
+    display: table-cell;
+    vertical-align: right;
+    padding-top: 0;
+    padding-bottom:0px;
+    margin: 5px 0 5px 0;
+  }
+}
+
+  
+@media (min-width: 768px) {
+  .button-allignment-one {
+    position: relative;
+    right:150px;
+    top: -60px;
+    /* margin-right: 10px; */
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .avatarpicture {
+    position: relative;
+    right: 320px;
+    top: 30px;
+    margin-right: 10px;
+    margin-left: 100px;
+    display: table-cell;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 839px),
+(min-width: 771px) {
+.avatarpicture {
+  position: relative;
+  right: 460px;
+  border-radius: 50%;
+}}
+
+.avatarpicture {
+
+  border-radius: 50%;
+}
+
+.basic-multi-select.col-sm-8.col-md-8.col-lg-8.css-2b097c-container {
+  text-align: left;
+  font-size: 12px;
+
+}
+
+.form-row,.form-group.form-inline.form-row{
+  margin: 5px 0 5px 0;
+}
+
+

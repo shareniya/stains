@@ -1,0 +1,20 @@
+
+
+/* Control input box width */
+.form-control {
+  max-width: 250px;
+}
+
+/* Control react-select dropdown list width */
+.basic-multi-select {
+  max-width: 300px;
+}
+
+.form-button {
+  float: right;
+  padding-right: 15%;
+}
+
+.btn {
+  margin: 10px;
+}

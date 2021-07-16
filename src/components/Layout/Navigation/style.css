@@ -1,0 +1,151 @@
+
+.navbar-custom {
+    background: #373a47;
+    color: white;
+}
+
+.vertical {
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    overflow: scroll initial;
+    z-index: 9999;
+    background: #373a47;
+}
+
+.vertical nav {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.toggle-wrap {
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+}
+
+span.menu {
+    padding-left: 12px;
+}
+
+.bgcolor {
+    background-color: white;
+}
+
+.main-wrapper {
+    height: 90vh;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.profilepic {
+    border-radius: 4px;
+    padding: 5px;
+    width: 45px;
+    border-radius: 60%;
+    left: 100px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    border-bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 9999;
+}
+
+.footer-container {
+    background-color: #606060;
+}
+
+.dropdown-toggle::after {
+    visibility: hidden;
+}
+
+
+.dropdown-menu.show {
+    position: relative;
+    background-color:#343a40;
+    margin-top: 7px;
+    margin-right: 10px;
+    left: -83px;
+}
+
+#question,
+#search,
+#home {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    font-size: 15em;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+@media (min-width: 768px) {
+ 
+    #home {
+        margin-right: 10px;
+        margin-left: 10px;
+            text-align: center;
+            display: table-cell;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            padding-top: 0;
+            padding-bottom: 0;
+    }}
+ 
+    @media (min-width: 768px) {
+ 
+        #question {
+            margin-right: 10px;
+            margin-left: 2px;
+                text-align: center;
+                display: table-cell;
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+                padding-top: 0;
+                padding-bottom: 0;
+        }}
+
+#icon {
+    width: 40px;
+    height: 25px;
+}
+
+#questiontext {
+    height: 28px;
+}
+
+ #alignnav{
+  display: flex;
+} 
+#horizontalwidth{
+width:100%;
+}
+
+#v-pills-tab
+{padding-right:-30px;
+}

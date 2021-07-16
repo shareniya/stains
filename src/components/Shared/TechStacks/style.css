@@ -1,0 +1,91 @@
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.cardstyle {
+  max-width: 7rem;
+}
+
+.tablestyle {
+  text-align: center;
+}
+
+td:empty::before {
+  content: "(None)";
+}
+
+.swal2-title {
+  padding-top: 0.5em;
+}
+
+.swal2-html-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.swal2-actions {
+  padding-top: 0px;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+}
+
+.table-header-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn.btn-sm.icon {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+table th {
+  padding: 0 !important;
+}
+
+.table-header-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 12px;
+}
+
+.header-width {
+  max-width: 100px;
+  text-align: left;
+}
+.header-width-id {
+  max-width: 15px;
+  text-align: left;
+}
+
+.table-data-id {
+  text-align: left;
+}
+.table-data {
+  text-align: left;
+}
+
+.wrappertable {
+  position: relative;
+}
+
+#newtechstackpop {
+  margin-right: 0rem;
+  margin-top: 0rem;
+  position: absolute;
+  right: 0;
+  /*height: 200px;
+  padding: 10px;*/
+}
+
+span.btn.btn-sm.icon{
+margin-top: 1px;
+}
+

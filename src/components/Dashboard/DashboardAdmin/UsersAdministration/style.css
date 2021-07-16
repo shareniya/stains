@@ -1,0 +1,31 @@
+table th {
+  padding: 0 !important;
+}
+
+.table-header-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header-width {
+  min-width: 200px;
+}
+.header-width-id {
+  min-width: 80px;
+}
+.header-width-date {
+  min-width: 150px;
+} 
+
+/* Align checkbox table header text center */
+.header-checkbox {
+  text-align: center;
+}
+
+/* Align checkbox in table cell */
+.checkbox {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
